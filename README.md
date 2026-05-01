@@ -26,3 +26,5 @@ Reprodução de um layout usando **Flexbox**, com header, sidebar, área de cont
 
 - HTML
 - CSS (Flexbox)
+
+Autor: Marcos Paulo de O. Mello
