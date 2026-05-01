@@ -19,12 +19,10 @@ body {
   color: rgb(146, 143, 143);
   mix-blend-mode: color-dodge;
   transition: 0.3s;
-  animation:  1s ease forwards;;
 
   &:hover {
-    color:  rgb(224, 224, 224) ;
+    color: rgb(224, 224, 224);
   }
-
 }
 
 .conteudo {
@@ -127,5 +125,38 @@ ul {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .sobreMim {
+    font-size: 2.5rem;
+  }
+
+  .conteudo {
+    width: 90%;
+    margin: 2rem 1rem;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  ul {
+    gap: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .contato {
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .linkedin,
+  .github {
+    width: 7rem;
+    font-size: 1rem;
+  }
 }
