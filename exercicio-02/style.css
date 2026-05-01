@@ -99,3 +99,53 @@ button:hover {
   background-color: rgb(240, 240, 60);
   transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+  ul {
+    gap: 5rem;
+  }
+
+  .content {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  .fotoProduto {
+    width: 80%;
+  }
+
+  .descricao {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .preco {
+    font-size: 25px;
+  }
+
+  button {
+    font-size: 15px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    height: 4rem;
+  }
+
+  ul {
+    gap: 3rem;
+  }
+
+  .fotoProduto {
+    width: 100%;
+  }
+}
