@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox {
+    width: 40rem;
+    height: 25rem;
+    margin-top: 10rem;
+}
+
+.nav {
+    width: 40rem;
+    height: 4rem;
+    background-color: black;
+}
+
+.quadrado {
+    display: flex;
+}
+
+.sidebar {
+    height: 21rem;
+    width: 5rem;
+    background-color:#E29BB1;
+}
+
+.body {
+    width: 35rem;
+    height: 17rem;
+    background-color: #D8CFA0;
+}
+
+.footer {
+    width: 35rem;
+    height: 4rem;
+    background-color:#B57953;
+}
